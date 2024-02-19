@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Gift List</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file for styling -->
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Wedding Gift List</h1>
+        <img src="homepage_picture.jpg" alt="Bride and Groom"> <!-- Replace with your image -->
+    </header>
+
+    <main>
+        <!-- Additional information section -->
+        <section class="additional-info">
+            <h2>Additional Information</h2>
+            <p>Welcome to our wedding! We are thrilled to have you join us on this special day.</p>
+            <p>For the venue location, please click <a href="https://www.google.com/maps/place/2000+Szentendre,+Kadarka+utca+62" target="_blank">here</a>.</p>
+            <!-- Add more information as needed -->
+        </section>
+
+        <section class="gift-list">
+            <h2>Gift Ideas</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Image</th>
+                        <th>Description</th>
+                        <th>Choose</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Gift items with interactive forms -->
+                    <tr>
+                        <!-- Gift information -->
+                        <td>1</td>
+                        <td><img src="gift1.png" alt="Gift 1"></td>
+                        <td>Description of Gift 1</td>
+                        <!-- Form for submitting name -->
+                        <td>
+                            <form class="gift-form">
+                                <label for="name1">Your Name:</label>
+                                <input type="text" id="name1" name="name1" placeholder="Enter your name">
+                                <button type="submit", data-gift-id="1">Choose</button>
+                            </form>
+                        </td>
+                    </tr>
+                    <tr>
+                        <!-- Gift information -->
+                        <td>2</td>
+                        <td><img src="gift1.png" alt="Gift 1"></td>
+                        <td>Description of Gift 1</td>
+                        <!-- Form for submitting name -->
+                        <td>
+                            <form class="gift-form">
+                                <label for="name1">Your Name:</label>
+                                <input type="text" id="name2" name="name2" placeholder="Enter your name">
+                                <button type="submit", data-gift-id="2">Choose</button>
+                            </form>
+                        </td>
+                    </tr>
+                    <tr>
+                        <!-- Gift information -->
+                        <td>3</td>
+                        <td><img src="gift1.png" alt="Gift 1"></td>
+                        <td>Description of Gift 1</td>
+                        <!-- Form for submitting name -->
+                        <td>
+                            <form class="gift-form">
+                                <label for="name1">Your Name:</label>
+                                <input type="text" id="name3" name="name3" placeholder="Enter your name">
+                                <button type="submit", data-gift-id="3">Choose</button>
+                            </form>
+                        </td>
+                    </tr>
+                    <!-- Add more rows for additional gift items -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Footer content (optional) -->
+    </footer>
+
+    <!-- Include script.js after giftForms -->
+    <script src="script.js"></script> <!-- Link to your JavaScript file for interactivity -->
+</body>
+</html>
